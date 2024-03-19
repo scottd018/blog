@@ -1,0 +1,60 @@
+---
+baseURL: "https://blog.dustinscott.io/"
+languageCode: "en-us"
+theme: "mainroad"
+title: "blog.dustinscott.io"
+summaryLength: 30
+paginate: 10
+enableRobotsTXT: true
+params:
+  subtitle: "A Tech Blog by Dustin Scott"
+  description: "A Tech Blog by Dustin Scott"
+  contact:
+    email: "dustin.scott18@gmail.com"
+  dateformat: "Jan 2, 2006"
+  twitter_cards: true
+  opengraph: true
+  readmore: true
+  authorbox: true
+  toc: true
+  post_navigation: true
+  post_meta: ["date", "categories", "translations"]
+  mainSections: ["home", "about", "posts"]
+  mathjax: true
+  mathjaxPath: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
+  mathjaxConfig: "TeX-AMS-MML_HTMLorMML"
+  highlightColor: "#e22d30"
+  customCSS: ["/css/custom.css"]
+  widgets:
+    social:
+      github: "scottd018"
+      linkedin: "dustin-scott-36a95190"
+      email: "dustin.scott18@gmail.com"
+  sidebar:
+    home: "right"
+    list: false
+    single: false
+    widgets:
+      - "recent"
+      - "categories"
+      - "taglist"
+      - "social"
+
+#
+# NOTE: this is deprecated in favor or params.author, however does not work in this theme
+#
+author:
+  name: "Dustin Scott"
+  bio: "Dustin is a Senior Managed OpenShift Black Belt currently working for Red Hat"
+  avatar: "img/dscott.jpg"
+menus:
+  main:
+    - name: "home"
+      url: "/"
+      weight: -1000
+    - name: "about"
+      url: "/about/"
+      weight: 0
+    - name: "posts"
+      url: "/posts/"
+      weight: 100

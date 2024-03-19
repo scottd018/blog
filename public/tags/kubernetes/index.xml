@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on blog.dustinscott.io</title>
+    <link>http://localhost:1313/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on blog.dustinscott.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing Kubernetes Manifests with CI/CD</title>
+      <link>http://localhost:1313/posts/1/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/1/</guid>
+      <description>Introduction A common pattern that consumers of Kubernetes apply is to store their manifests in a git repository. This provides a way to document (by way of YAML) the configuration of the applications that reside on the platform, and also enables an easy onramp to things like CI/CD.</description>
+    </item>
+  </channel>
+</rss>
